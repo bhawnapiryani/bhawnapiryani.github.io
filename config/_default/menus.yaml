@@ -7,9 +7,19 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Blog
-    url: blog/
+  
+  - name: CV
+    url: uploads/resume.pdf
     weight: 20
-  - name: Uses
-    url: uses/
+  
+  - name: Publications
+    url: /publication/
     weight: 30
+  
+  - name: Projects
+    url: /project/
+    weight: 40
+  
+  - name: Contact
+    url: /#contact
+    weight: 50
