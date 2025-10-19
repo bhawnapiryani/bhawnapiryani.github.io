@@ -27,8 +27,8 @@ sections:
         style: 'text-align: justify; font-size: 0.8em;'
       # Avatar customization
       avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
   - block: experience
     content:
       username: admin
