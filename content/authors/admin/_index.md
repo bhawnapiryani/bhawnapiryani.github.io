@@ -6,6 +6,8 @@ title: Bhawna Piryani
 first_name: Bhawna
 last_name: Piryani
 
+highlight_name: true
+
 # Status emoji
 #status:
   #icon: 🎓
