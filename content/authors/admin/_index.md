@@ -39,7 +39,7 @@ education:
   - area: PhD Computer Science
     institution: University of Innsbruck
     date_start: 2022-08-01
-    date_end: null
+    date_end: 2026-08-01
     
   - area: Master of Computer Engineering
     institution: Pokhara University
