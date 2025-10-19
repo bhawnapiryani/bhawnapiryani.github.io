@@ -7,31 +7,33 @@ first_name: Bhawna
 last_name: Piryani
 
 # Status emoji
-status:
-  icon: 🎓
+#status:
+  #icon: 🎓
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: PhD Researcher in Natural Language Processing
+role: PhD Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Your University Name
-    url: https://www.example.com/
+  - name: University of Innsbruck
+    url: https://www.uibk.ac.at/en/
 
 # Social network links
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:bhawna.piryani@gmail.com'
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/yourusername
+    url: https://github.com/bhawnapiryani
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/yourusername/
-  - icon: brands/x
-    url: https://x.com/yourusername
+    url: https://www.linkedin.com/in/bhawna-piryani-7217a478/
+  - icon: academicons/google-scholar
+    link: https://scholar.google.com/citations?user=GwJtRX0AAAAJ&hl=en
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0005-3578-2393
 
 education:
   - area: PhD Computer Science
@@ -113,13 +115,13 @@ skills:
         percent: 60
         icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Hindi
-    percent: 100
-  - name: German
-    percent: 50
+#languages:
+  #- name: English
+   # percent: 100
+  #- name: Hindi
+  #  percent: 100
+ # - name: German
+   # percent: 50
 
 # Awards
 awards:
