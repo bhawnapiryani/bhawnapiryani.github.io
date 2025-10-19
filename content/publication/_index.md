@@ -22,6 +22,6 @@ sections:
         - name: Book
           tag: '5'
     design:
-      view: card
+      view: compact
       columns: 1
 ---
