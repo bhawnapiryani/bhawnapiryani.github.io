@@ -16,12 +16,10 @@ sections:
         longitude: '11.4041'
       contact_links:
         - icon: envelope
-          icon_pack: fas
-          name: bhawna.piryani@uibk.ac.at
+          text: bhawna.piryani@uibk.ac.at
           link: 'mailto:bhawna.piryani@uibk.ac.at'
         - icon: envelope
-          icon_pack: fas
-          name: bhawna.piryani@gmail.com
+          text: bhawna.piryani@gmail.com
           link: 'mailto:bhawna.piryani@gmail.com'
       autolink: true
     design:
