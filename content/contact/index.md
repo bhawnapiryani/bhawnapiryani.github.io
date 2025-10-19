@@ -1,21 +1,36 @@
 ---
 title: Contact
+type: landing
 
-# Optional header image
-image:
-  caption: ''
-  focal_point: ''
+sections:
+  - block: contact
+    id: contact
+    content:
+      title: Contact
+      email: bhawna.piryani@uibk.ac.at
+      address:
+        street: ''
+        city: Innsbruck
+        region: Tyrol
+        postcode: ''
+        country: Austria
+        country_code: AT
+      coordinates:
+        latitude: '47.2692'
+        longitude: '11.4041'
+      contact_links:
+        - icon: envelope
+          icon_pack: fas
+          name: bhawna.piryani@uibk.ac.at
+          link: 'mailto:bhawna.piryani@uibk.ac.at'
+        - icon: envelope
+          icon_pack: fas
+          name: bhawna.piryani@gmail.com
+          link: 'mailto:bhawna.piryani@gmail.com'
+      autolink: true
+    design:
+      columns: '2'
 ---
-
-## Contact Information
-
-**Email**  
-- [bhawna.piryani@uibk.ac.at](mailto:bhawna.piryani@uibk.ac.at)  
-- [bhawna.piryani@gmail.com](mailto:bhawna.piryani@gmail.com)
-
-**Location**  
-Innsbruck, Tyrol, Austria  
-University of Innsbruck
 
 ## Location
 
