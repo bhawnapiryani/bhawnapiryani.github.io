@@ -5,7 +5,6 @@ authors:
   - Jamshid Mozafari
   - Abdelrahman Abdallah
   - admin
-  - Adam Jatowt
 
 date: "2025-01-01"
 doi: "10.1145/3726302.3730299"
