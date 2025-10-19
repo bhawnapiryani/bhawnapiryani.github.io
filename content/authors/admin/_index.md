@@ -38,25 +38,25 @@ profiles:
 education:
   - area: PhD Computer Science
     institution: Your University
-    date_start: 2020-09-01
-    date_end: 2025-06-30
+    date_start: 2022-08-01
+    date_end: Present
+    
+  - area: Master of Computer Engineering
+    institution: Pokhara University
+    date_start: 2018-03-01
+    date_end: 2020-09-05
+    Summary: |
+      GPA: 3.84/4
+      Thesis: "Sentiment Analysis of Internet Memes Using Deep Learning Approaches"
+    
+  - area: Bachelor Of Computer Engineering
+    institution: Tribhuvan University
+    date_start: 2012-11-01
+    date_end: 2017-10-30
     summary: |
-      Research focus on Temporal Question Answering and Information Retrieval.
-      Working on improving NLP systems for time-sensitive queries.
-  - area: MSc Computer Science
-    institution: Your University
-    date_start: 2018-09-01
-    date_end: 2020-06-30
-    summary: |
-      GPA: 3.8/4.0
+      GPA: 3/4
+      Thesis: "Review's Sentiment Analyzer"
       
-      Specialized in Natural Language Processing and Machine Learning.
-  - area: BSc Computer Science
-    institution: Your University
-    date_start: 2014-09-01
-    date_end: 2018-06-30
-    summary: |
-      GPA: 3.6/4.0
 
 work:
   - position: Research Assistant
