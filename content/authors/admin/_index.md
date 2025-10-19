@@ -37,7 +37,7 @@ profiles:
 
 education:
   - area: PhD Computer Science
-    institution: Your University
+    institution: University of Innsbruck
     date_start: 2022-08-01
     date_end: Present
     
@@ -45,17 +45,17 @@ education:
     institution: Pokhara University
     date_start: 2018-03-01
     date_end: 2020-09-05
-    Summary: |
-      GPA: 3.84/4
-      Thesis: "Sentiment Analysis of Internet Memes Using Deep Learning Approaches"
+    #Summary: |
+     # GPA: 3.84/4
+     # Thesis: "Sentiment Analysis of Internet Memes Using Deep Learning Approaches"
     
   - area: Bachelor Of Computer Engineering
     institution: Tribhuvan University
     date_start: 2012-11-01
     date_end: 2017-10-30
-    summary: |
-      GPA: 3/4
-      Thesis: "Review's Sentiment Analyzer"
+    #summary: |
+     # GPA: 3/4
+      #Thesis: "Review's Sentiment Analyzer"
       
 
 work:
