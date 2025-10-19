@@ -2,6 +2,11 @@
 title: Publications
 type: landing
 
+cascade:
+  _build:
+    render: never
+    list: always
+
 sections:
   - block: collection
     content:
