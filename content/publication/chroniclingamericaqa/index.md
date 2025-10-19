@@ -1,19 +1,32 @@
 ---
-title: "Test Conference Paper"
+title: "ChroniclingAmericaQA: A Large-scale Question Answering Dataset based on Historical American Newspaper Pages"
 authors:
 - admin
-date: "2024-01-15"
+- Jamshid Mozafari
+- Adam Jatowt
+- 
+date: "2024-07-11"
+
 publication_types: ["1"]
+
 publication: "Test Conference 2024"
-abstract: "This is a test."
 
 # Main external link (title will link here)
-external_link: "https://dl.acm.org/doi/10.1145/example"
+external_link: "https://dl.acm.org/doi/10.1145/3626772.3657891"
 
 # Additional links
-url_pdf: "https://arxiv.org/pdf/2024.12345.pdf"
-url_code: "https://github.com/yourusername/project"
-doi: "10.1145/example"
+url_code: "https://github.com/DataScienceUIBK/ChroniclingAmericaQA"
+doi: "10.1145/3626772.365789"
+
+links:
+- name: GitHub
+  url: https://github.com/DataScienceUIBK/ChroniclingAmericaQA
+  icon: github
+  icon_pack: fab
+- name: Hugging Face
+  url: "https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA"
+  icon: huggingface
+  icon_pack: fab
 
 _build:
   render: never
