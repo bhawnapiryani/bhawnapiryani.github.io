@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-layout: minimal
+layout: docs
 show_date: false
 show_author: false
 show_reading_time: false
