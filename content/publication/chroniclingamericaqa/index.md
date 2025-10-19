@@ -10,6 +10,9 @@ authors:
 date: "2025-01-01"
 doi: "10.1145/3726302.3730299"
 
+# External link - clicking title goes here instead of internal page
+external_link: "https://doi.org/10.1145/3726302.3730299"
+
 # Publication type: 1 = Conference paper
 publication_types: ["1"]
 
