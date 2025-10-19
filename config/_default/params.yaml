@@ -30,7 +30,7 @@ marketing:
 header:
   navbar:
     enable: true
-    block: floating-theme-toggler
+    
 
 # Site footer
 footer:
