@@ -1,58 +1,54 @@
 ---
-title: "Contact"
-type: widget_page
----
----
-widget: contact
-headless: true
-active: true
-weight: 10
+title: Contact
+type: landing
 
-title: "Contact"
-subtitle: ""
-
-# Contact details
-email:
-  - bhawna.piryani@uibk.ac.at
-  - bhawna.piryani@gmail.com
-address:
-  street: ""
-  city: "Innsbruck"
-  region: "Tyrol State"
-  country: "Austria"
-
-# Map
-map:
-  service: google
-  api_key: ""  # optional if you use the default embed
-  latitude: 47.2692
-  longitude: 11.4041
-  zoom: 13
-
-# Contact form
-form:
-  netlify: false  # set true if you use Netlify forms
-  action: "mailto:bhawna.piryani@uibk.ac.at"
-  fields:
-    - name: "name"
-      label: "Your Name"
-      type: "text"
-      required: true
-    - name: "email"
-      label: "Your Email"
-      type: "email"
-      required: true
-    - name: "subject"
-      label: "Subject"
-      type: "text"
-      required: true
-    - name: "message"
-      label: "Message"
-      type: "textarea"
-      required: true
-  submit_label: "Send Message"
-
-design:
-  columns: "2"
----
-
+sections:
+  - block: contact
+    content:
+      title: Contact
+      subtitle: Get in touch with me
+      
+      # Contact details
+      email: bhawna.piryani@uibk.ac.at
+      phone: ''
+      
+      # Address
+      address:
+        street: ''
+        city: Innsbruck
+        region: Tyrol
+        postcode: ''
+        country: Austria
+        country_code: AT
+      
+      # Google Maps coordinates
+      coordinates:
+        latitude: '47.2692'
+        longitude: '11.4041'
+      
+      # Office hours (optional)
+      office_hours:
+        - 'Available for meetings by appointment'
+      
+      # Contact links
+      contact_links:
+        - icon: envelope
+          icon_pack: fas
+          name: Email
+          link: 'mailto:bhawna.piryani@uibk.ac.at'
+        - icon: envelope
+          icon_pack: fas
+          name: Alternative Email
+          link: 'mailto:bhawna.piryani@gmail.com'
+      
+      # Automatically link email addresses
+      autolink: true
+      
+      # Email form provider (optional - requires setup)
+      form:
+        provider: netlify
+        netlify:
+          captcha: true
+    
+    design:
+      columns: '2'
