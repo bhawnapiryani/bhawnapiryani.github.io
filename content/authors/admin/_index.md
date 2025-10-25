@@ -87,7 +87,7 @@ work:
       - 
 # Teaching Experience
 teaching:
-- position: Proseminar Instructor
+  - position: Proseminar Instructor
     company_name: University of Innsbruck
     company_url: 'https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=25W&lvnr_id_in=703068&sprache_in=en'
     company_logo: ''
@@ -109,7 +109,7 @@ teaching:
       - Leading seminars on computer networking and internet technologies for bachelor students
       - Designing practical exercises and lab sessions
       - Mentoring students in understanding network protocols and technologies
-- position: Proseminar Instructor
+  - position: Proseminar Instructor
     company_name: University of Innsbruck
     company_url: 'https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=25S&lvnr_id_in=703076&sprache_in=en'
     company_logo: ''
@@ -153,7 +153,6 @@ teaching:
       - Led seminars on data analysis and probability theory for bachelor students
       - Prepared course materials and assignments
       - Evaluated student performance and provided feedback
-      
   - position: Proseminar Instructor
     company_name: University of Innsbruck
     company_url: 'https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=22W&lvnr_id_in=703034&sprache_in=en'
@@ -166,7 +165,7 @@ teaching:
       - Designed practical exercises and lab sessions
       - Mentored students in understanding network protocols and technologies
    
-      - 
+        
 # Skills
 skills:
   - name: Technical Skills
