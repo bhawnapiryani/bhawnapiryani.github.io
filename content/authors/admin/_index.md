@@ -117,9 +117,9 @@ skills:
         percent: 60
         icon: camera
 
-#languages:
-  #- name: English
-   # percent: 100
+languages:
+  - name: English
+    percent: 100
   #- name: Hindi
   #  percent: 100
  # - name: German
