@@ -124,6 +124,8 @@ languages:
     percent: 100
   - name: Nepali
     percent: 100
+  - name: German
+    percent: 25
 
 # Awards
 awards:
