@@ -120,10 +120,10 @@ skills:
 languages:
   - name: English
     percent: 100
-  #- name: Hindi
-  #  percent: 100
- # - name: German
-   # percent: 50
+  - name: Hindi
+    percent: 100
+  - name: Nepali
+    percent: 100
 
 # Awards
 awards:
