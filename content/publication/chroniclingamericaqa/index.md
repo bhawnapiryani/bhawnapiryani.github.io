@@ -1,43 +1,65 @@
 ---
-title: "ChroniclingAmericaQA: A Large-scale Question Answering Dataset based on Historical American Newspaper Pages"
+title: 'ChroniclingAmericaQA: A Large-scale Question Answering Dataset based on Historical American Newspaper Pages'
+
+# Authors
 authors:
-- Jamshid Mozafari
-- Abdelrahman Abdallah
-- admin
-- Adam Jatowt
+  - Jamshid Mozafari
+  - Abdelrahman Abdallah
+  - admin
+  - Adam Jatowt
 
-date: "2024-07-11"
-publication_types: ["1"]
+date: '2024-07-11T00:00:00Z'
+doi: '10.1145/3726302.3730299'
 
-publication: "International ACM SIGIR Conference on Research and Development in Information Retrieval 2025, ACM"
-publication_short: ""
+# Schedule page publish date (NOT publication's date)
+publishDate: '2024-07-11T00:00:00Z'
 
-abstract: "Your abstract here..."
+# Publication type
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ['1']
 
-# Don't use external_link - use url_source instead for the paper link
-url_source: "https://dl.acm.org/doi/10.1145/3626772.3657891"
-doi: "10.1145/3726302.3730299"
+# Publication name and optional abbreviated publication name
+publication: In *International ACM SIGIR Conference on Research and Development in Information Retrieval 2025*
+publication_short: In *SIGIR 2025*
 
-# Custom links that will show as buttons
-links:
-- name: Hugging Face
-  url: https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA
-- name: PlausibleQA
-  url: https://your-plausible-qa-link.com
-- name: GitHub
-  url: https://github.com/DataScienceUIBK/ChroniclingAmericaQA
-- name: Source
-  url: https://dl.acm.org/doi/10.1145/3626772.3657891
+abstract: Your abstract here...
 
-# Add this for the score badge
+# Summary (optional - appears in listings)
+summary: A large-scale question answering dataset based on historical American newspaper pages.
+
 tags:
-- "Score: A+"
+  - Question Answering
+  - Historical Documents
+  - Information Retrieval
+  - Natural Language Processing
+  - Score A*
 
-# Output information
-extra:
-  output: "DataScience Lab"
+# Display this page in the Featured widget?
+featured: true
 
-_build:
-  render: never
-  list: always
+# Custom links (optional)
+links:
+  - name: Hugging Face
+    url: https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA
+  - name: PlausibleQA
+    url: https://your-plausible-qa-link.com
+
+url_pdf: ''
+url_code: 'https://github.com/DataScienceUIBK/ChroniclingAmericaQA'
+url_dataset: 'https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA'
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: 'https://dl.acm.org/doi/10.1145/3626772.3657891'
+url_video: ''
+
+# Featured image (optional)
+# Place an image named `featured.jpg/png` in this page's folder
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
 ---
+```
