@@ -59,7 +59,6 @@ education:
       GPA: 3/4  
       Thesis: "Review's Sentiment Analyzer"
       
-
 work:
   - position: PhD Researcher
     company_name: Data Science Group, Digital Science Center
@@ -84,8 +83,7 @@ work:
       - Developed machine learning models for text classification
       - Improved data processing pipelines
       - Collaborated with cross-functional teams
-      - 
-
+        
         
 # Skills
 skills:
