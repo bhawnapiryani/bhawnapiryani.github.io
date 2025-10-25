@@ -42,7 +42,6 @@ education:
     institution: University of Innsbruck
     date_start: 2022-08-01
     date_end: ''
-    
   - area: Master of Computer Engineering
     institution: Pokhara University
     date_start: 2018-03-01
@@ -50,7 +49,6 @@ education:
     summary: |
       GPA: 3.84/4  
       Thesis: "Sentiment Analysis of Internet Memes Using Deep Learning Approaches"
-    
   - area: Bachelor of Computer Engineering
     institution: Tribhuvan University
     date_start: 2012-11-01
