@@ -42,6 +42,7 @@ education:
     institution: University of Innsbruck
     date_start: 2022-08-01
     date_end: ''
+    
   - area: Master of Computer Engineering
     institution: Pokhara University
     date_start: 2018-03-01
@@ -49,6 +50,7 @@ education:
     summary: |
       GPA: 3.84/4  
       Thesis: "Sentiment Analysis of Internet Memes Using Deep Learning Approaches"
+    
   - area: Bachelor of Computer Engineering
     institution: Tribhuvan University
     date_start: 2012-11-01
@@ -57,32 +59,31 @@ education:
       GPA: 3/4  
       Thesis: "Review's Sentiment Analyzer"
       
+
 work:
-  - position: PhD Researcher
-    company_name: Data Science Group, Digital Science Center
-    company_url: 'https://www.uibk.ac.at/de/disc/'
+  - position: Research Assistant
+    company_name: University Research Lab
+    company_url: ''
     company_logo: ''
-    date_start: 2022-08-01
+    date_start: 2020-09-01
     date_end: ''
     summary: |
       Responsibilities include:
-      - Conducting research in Natural Language Processing and Temporal Question Answering
-      - Developing advanced AI systems for time-sensitive information retrieval
-      - Publishing research papers in top-tier NLP conferences
-      - Collaborating with international research teams
+      - Developing temporal question answering systems
+      - Publishing research papers in NLP conferences
+      - Collaborating on information retrieval projects
   - position: Software Engineer Intern
-    company_name: LIS Nepal
-    company_url: 'https://lisnepal.com.np/'
+    company_name: Tech Company
+    company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2016-09-31
+    date_start: 2019-06-01
+    date_end: 2019-08-31
     summary: |
       Responsibilities include:
       - Developed machine learning models for text classification
       - Improved data processing pipelines
       - Collaborated with cross-functional teams
-        
-        
+
 # Skills
 skills:
   - name: Technical Skills
@@ -116,13 +117,13 @@ skills:
         percent: 60
         icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Hindi
-    percent: 100
-  - name: Nepali
-    percent: 100
+#languages:
+  #- name: English
+   # percent: 100
+  #- name: Hindi
+  #  percent: 100
+ # - name: German
+   # percent: 50
 
 # Awards
 awards:
@@ -146,7 +147,7 @@ awards:
     awarder: Pokhara University
     icon: currency-dollar
     summary: |
-      Awarded merit-based scholarship for the 2nd semester during Master of Computer Engineering program..
+      Awarded merit-based scholarship for one semester during Master of Computer Engineering program.
 ---
 
 Bhawna Piryani is a PhD researcher specializing in Natural Language Processing, with a particular focus on Temporal Question Answering and Information Retrieval. Her research aims to develop advanced AI systems that can better understand and respond to time-sensitive queries.
