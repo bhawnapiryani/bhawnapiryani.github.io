@@ -55,11 +55,8 @@ url_slides: ''
 url_source: 'https://dl.acm.org/doi/10.1145/3626772.3657891'
 url_video: ''
 
-# Featured image (optional)
-# Place an image named `featured.jpg/png` in this page's folder
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+_build:
+  render: never
+  list: always
 ---
-```
+
