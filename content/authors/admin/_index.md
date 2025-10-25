@@ -85,7 +85,7 @@ work:
       - Improved data processing pipelines
       - Collaborated with cross-functional teams
       - 
-# Teaching Experience
+
 teaching:
   - position: Proseminar Instructor
     company_name: University of Innsbruck
