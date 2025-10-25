@@ -127,20 +127,27 @@ skills:
 
 # Awards
 awards:
-  - title: Best Paper Award
-    url: https://www.example.com
-    date: '2023-11-25'
-    awarder: Conference Name
-    icon: trophy
-    summary: |
-      Received best paper award for research on temporal question answering systems at a major NLP conference.
-  - title: Research Excellence Award
-    url: https://www.example.com
-    date: '2023-06-01'
-    awarder: University Name
+  - title: PhD Scholarship Award
+    url: ''
+    date: '2022-08-01'
+    awarder: University of Innsbruck
     icon: academic-cap
     summary: |
-      Recognized for outstanding research contributions in the field of Natural Language Processing.
+      Awarded a 4-year PhD scholarship for doctoral research in Computer Science at the University of Innsbruck.
+  - title: Dean's List Award
+    url: ''
+    date: '2020-09-05'
+    awarder: Pokhara University
+    icon: trophy
+    summary: |
+      Recognized for outstanding academic performance during Master of Computer Engineering program with a GPA of 3.84/4.
+  - title: Master's Semester Scholarship
+    url: ''
+    date: '2019-03-01'
+    awarder: Pokhara University
+    icon: currency-dollar
+    summary: |
+      Awarded merit-based scholarship for one semester during Master of Computer Engineering program.
 ---
 
 Bhawna Piryani is a PhD researcher specializing in Natural Language Processing, with a particular focus on Temporal Question Answering and Information Retrieval. Her research aims to develop advanced AI systems that can better understand and respond to time-sensitive queries.
