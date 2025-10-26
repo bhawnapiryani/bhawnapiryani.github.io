@@ -3,10 +3,9 @@ title: 'Wrong Answers Can Also Be Useful: PlausibleQA - A Large-Scale QA Dataset
 
 # Authors
 authors:
-  - admin
   - Jamshid Mozafari
   - Abdelrahman Abdallah
-  - Antoine Doucet
+  - admin
   - Adam Jatowt
 
 date: '2025-07-25T00:00:00Z'
