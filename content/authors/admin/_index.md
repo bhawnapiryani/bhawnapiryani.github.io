@@ -72,17 +72,19 @@ work:
       - Developing advanced AI systems for time-sensitive information retrieval
       - Publishing research papers in top-tier IR/NLP conferences
       - Collaborating with international research teams
-  - position: Software Engineer Intern
-    company_name: LIS Nepal
-    company_url: https://lisnepal.com.np/
+  - position: PhD Researcher
+    company_name: Data Science Group, Digital Science Center
+    company_url: https://www.uibk.ac.at/de/disc/
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2016-09-31
+    date_start: 2022-08-01
+    date_end: ''
     summary: |
       Responsibilities include:
-      - Developed machine learning models for text classification
-      - Improved data processing pipelines
-      - Collaborated with cross-functional teams
+      - Conducting research in Information Retrieval and Temporal Question Answering
+      - Developing advanced AI systems for time-sensitive information retrieval
+      - Publishing research papers in top-tier IR/NLP conferences
+      - Collaborating with international research teams
+        
 
 # Skills
 skills:
