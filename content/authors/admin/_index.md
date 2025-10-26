@@ -60,29 +60,6 @@ education:
       Thesis: "Review's Sentiment Analyzer"
       
 
-work:
-  - position: Research Assistant
-    company_name: University Research Lab
-    company_url: ''
-    company_logo: ''
-    date_start: 2020-09-01
-    date_end: ''
-    summary: |
-      Responsibilities include:
-      - Developing temporal question answering systems
-      - Publishing research papers in NLP conferences
-      - Collaborating on information retrieval projects
-  - position: Software Engineer Intern
-    company_name: LIS Nepal
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2016-09-31
-    summary: |
-      Responsibilities include:
-      - Developed machine learning models for text classification
-      - Improved data processing pipelines
-      - Collaborated with cross-functional teams
 
 # Skills
 skills:
