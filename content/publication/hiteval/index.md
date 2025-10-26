@@ -45,11 +45,11 @@ links:
     icon_pack: fas
     icon: file-pdf
   - name: Code
-    url: 'hhttps://github.com/DataScienceUIBK/HintEval'
+    url: 'https://github.com/DataScienceUIBK/HintEval'
     icon_pack: fab
     icon: github
   - name: Documentation
-    url: 'hhttps://github.com/DataScienceUIBK/HintEval'
+    url: 'https://github.com/DataScienceUIBK/HintEval'
     icon_pack: fab
     icon: github
 
