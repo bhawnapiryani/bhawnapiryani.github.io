@@ -37,15 +37,6 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: true
-  - block: experience
-    id: teaching
-    content:
-      title: Teaching Experience
-      username: admin
-      # only show teaching items
-      items_key: teaching
-    design:
-      date_format: 'January 2006'
   - block: skills
     content:
       title: Skills & Hobbies
