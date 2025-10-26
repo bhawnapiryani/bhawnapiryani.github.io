@@ -42,7 +42,7 @@ sections:
     content:
       title: Teaching Experience
       username: admin
-      # Use teaching experience instead of work
+      # only show teaching items
       items_key: teaching
     design:
       date_format: 'January 2006'
