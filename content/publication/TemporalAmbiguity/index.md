@@ -21,10 +21,11 @@ doi: '10.18653/v1/2024.findings-emnlp.562'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name
-publication: *Findings of the Association for Computational Linguistics EMNLP 2024*
-publication_short: *EMNLP 2024*
+publication: In *Findings of the Association for Computational Linguistics EMNLP 2024*
+publication_short: In *EMNLP 2024*
 
 abstract: 
+
 tags:
   - Temporal QA
   - Score A*
