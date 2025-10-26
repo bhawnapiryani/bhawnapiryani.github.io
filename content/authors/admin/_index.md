@@ -72,8 +72,8 @@ work:
       - Developing advanced AI systems for time-sensitive information retrieval
       - Publishing research papers in top-tier IR/NLP conferences
       - Collaborating with international research teams
-  - position: PhD Researcher
-    company_name: Data Science Group, Digital Science Center
+  - position: Software Engineer Intern
+    company_name: LIS Nepal
     company_url: https://www.uibk.ac.at/de/disc/
     company_logo: ''
     date_start: 2022-08-01
