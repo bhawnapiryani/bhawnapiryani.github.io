@@ -3,9 +3,8 @@ title: 'ChroniclingAmericaQA: A Large-scale Question Answering Dataset based on 
 
 # Authors
 authors:
-  - Jamshid Mozafari
-  - Abdelrahman Abdallah
   - admin
+  - Jamshid Mozafari
   - Adam Jatowt
 
 date: '2024-07-11T00:00:00Z'
@@ -39,12 +38,6 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
-# Custom links (optional)
-links:
-  - name: Hugging Face
-    url: https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA
-  - name: PlausibleQA
-    url: https://your-plausible-qa-link.com
 
 url_pdf: ''
 url_code: 'https://github.com/DataScienceUIBK/ChroniclingAmericaQA'
