@@ -28,12 +28,12 @@ profiles:
   - icon: at-symbol
     url: 'mailto:bhawna.piryani@gmail.com'
     label: E-mail Me
+- icon: academicons/google-scholar
+    link: https://scholar.google.com/citations?user=GwJtRX0AAAAJ&hl=en
   - icon: brands/github
     url: https://github.com/bhawnapiryani
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/bhawna-piryani-7217a478/
-  - icon: academicons/google-scholar
-    link: https://scholar.google.com/citations?user=GwJtRX0AAAAJ&hl=en
   - icon: academicons/orcid
     url: https://orcid.org/0009-0005-3578-2393
 
