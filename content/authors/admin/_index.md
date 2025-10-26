@@ -68,11 +68,21 @@ work:
     date_end: ''
     summary: |
       Responsibilities include:
-      - Conducting research in Natural Language Processing and Temporal Question Answering
+      - Conducting research in Information Retrieval and Temporal Question Answering
       - Developing advanced AI systems for time-sensitive information retrieval
-      - Publishing research papers in top-tier NLP conferences
+      - Publishing research papers in top-tier IR/NLP conferences
       - Collaborating with international research teams
-
+  - position: Software Engineer Intern
+    company_name: LIS Nepal
+    company_url: https://lisnepal.com.np/
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2016-09-31
+    summary: |
+      Responsibilities include:
+      - Developed machine learning models for text classification
+      - Improved data processing pipelines
+      - Collaborated with cross-functional teams
 
 # Skills
 skills:
