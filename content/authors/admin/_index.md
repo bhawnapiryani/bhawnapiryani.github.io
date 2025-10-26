@@ -74,7 +74,7 @@ work:
       - Collaborating with international research teams
   - position: Software Engineer Intern
     company_name: LIS Nepal
-    company_url: https://www.uibk.ac.at/de/disc/
+    company_url: https://lisnepal.com.np/
     company_logo: ''
     date_start: 2022-08-01
     date_end: ''
