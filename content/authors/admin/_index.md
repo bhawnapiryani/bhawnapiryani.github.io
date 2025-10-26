@@ -74,7 +74,7 @@ work:
       - Collaborating on information retrieval projects
   - position: Software Engineer Intern
     company_name: LIS Nepal
-    company_url: 'https://lisnepal.com.np/'
+    company_url: ''
     company_logo: ''
     date_start: 2016-01-01
     date_end: 2016-09-31
