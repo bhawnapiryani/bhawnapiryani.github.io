@@ -76,14 +76,12 @@ work:
     company_name: LIS Nepal
     company_url: https://lisnepal.com.np/
     company_logo: ''
-    date_start: 2022-08-01
-    date_end: ''
+    date_start: 2016-01-01
+    date_end: 2016-09-31
     summary: |
       Responsibilities include:
-      - Conducting research in Information Retrieval and Temporal Question Answering
-      - Developing advanced AI systems for time-sensitive information retrieval
-      - Publishing research papers in top-tier IR/NLP conferences
-      - Collaborating with international research teams
+      - Developed machine learning models for text classification
+      - Improved data processing pipelines
         
 
 # Skills
