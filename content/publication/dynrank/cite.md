@@ -18,4 +18,4 @@
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2025.coling-main.319/",
     pages = "4768--4778",
-    }
+}
