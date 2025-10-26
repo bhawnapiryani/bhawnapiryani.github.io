@@ -25,9 +25,6 @@ organizations:
 
 # Social network links
 profiles:
-  - icon: at-symbol
-    url: 'mailto:bhawna.piryani@gmail.com'
-    label: E-mail Me
   - icon: academicons/google-scholar
     link: https://scholar.google.com/citations?user=GwJtRX0AAAAJ&hl=en
   - icon: brands/github
@@ -36,6 +33,9 @@ profiles:
     url: https://www.linkedin.com/in/bhawna-piryani-7217a478/
   - icon: academicons/orcid
     url: https://orcid.org/0009-0005-3578-2393
+  - icon: at-symbol
+    url: 'mailto:bhawna.piryani@gmail.com'
+    label: E-mail Me
 
 education:
   - area: PhD Computer Science
