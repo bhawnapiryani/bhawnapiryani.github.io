@@ -1,27 +1,12 @@
 ---
 title: Publications
-type: landing
+cms_exclude: true
 
-sections:
-  - block: collection
-    content:
-      title: Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        publication_type: ''
-      # Button/filter toolbar
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Conference
-          tag: '1'
-        - name: Journal
-          tag: '2'
-        - name: Book
-          tag: '5'
-    design:
-      view: citation
-      columns: 1
+# View.
+view: citation
+
+# Optional header image (relative to `static/media/` folder).
+banner:
+  caption: ''
+  image: ''
 ---
