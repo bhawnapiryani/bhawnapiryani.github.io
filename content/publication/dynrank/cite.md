@@ -18,4 +18,5 @@
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2025.coling-main.319/",
     pages = "4768--4778",
+    abstract = "This paper presents DynRank, a novel framework for enhancing passage retrieval in open-domain question-answering systems through dynamic zero-shot question classification. Traditional approaches rely on static prompts and pre-defined templates, which may limit model adaptability across different questions and contexts. In contrast, DynRank introduces a dynamic prompting mechanism, leveraging a pre-trained question classification model that categorizes questions into fine-grained types. Based on these classifications, contextually relevant prompts are generated, enabling more effective passage retrieval. We integrate DynRank into existing retrieval frameworks and conduct extensive experiments on multiple QA benchmark datasets."
 }
