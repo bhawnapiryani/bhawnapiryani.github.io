@@ -21,8 +21,8 @@ doi: '10.18653/v1/2024.findings-emnlp.562'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name
-publication: In *Findings of the Association for Computational Linguistics EMNLP 2024*
-publication_short: In *EMNLP 2024*
+publication: "Findings of the Association for Computational Linguistics EMNLP 2024"
+publication_short: "EMNLP 2024"
 
 abstract: Detecting and answering ambiguous questions has been a challenging task in open-domain question answering. Ambiguous questions have different answers depending on their interpretation and can take diverse forms. Temporally ambiguous questions are one of the most common types of such questions. In this paper, we introduce TEMPAMBIQA, a manually annotated temporally ambiguous QA dataset consisting of 8,162 open-domain questions derived from existing datasets. Our annotations focus on capturing temporal ambiguity to study the task of detecting temporally ambiguous questions. We propose a novel approach by using diverse search strategies based on disambiguate versions of the questions. We also introduce and test non-search, competitive baselines for detecting temporal ambiguity using zero-shot and few-shot approaches.
 
