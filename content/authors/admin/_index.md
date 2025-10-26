@@ -83,7 +83,87 @@ work:
       - Developed machine learning models for text classification
       - Improved data processing pipelines
         
-
+# Teaching Experience
+teaching:
+  - position: Proseminar Instructor
+    company_name: University of Innsbruck
+    company_url: https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=25W&lvnr_id_in=703068&sprache_in=en
+    company_logo: ''
+    date_start: 2025-10-01
+    date_end: ''
+    summary: |
+      Course: 703068 PS Data and Probabilities
+      - Leading seminars on data analysis and probability theory for bachelor students
+      - Preparing course materials and assignments
+      - Evaluating student performance and providing feedback
+  - position: Proseminar Instructor
+    company_name: University of Innsbruck
+    company_url: https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=25W&lvnr_id_in=703034&sprache_in=en
+    company_logo: ''
+    date_start: 2025-10-01
+    date_end: ''
+    summary: |
+      Course: 703034 PS Computer Networks and Internet Technology
+      - Leading seminars on computer networking and internet technologies for bachelor students
+      - Designing practical exercises and lab sessions
+      - Mentoring students in understanding network protocols and technologies
+  - position: Proseminar Instructor
+    company_name: University of Innsbruck
+    company_url: https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=25S&lvnr_id_in=703076&sprache_in=en
+    company_logo: ''
+    date_start: 2025-03-01
+    date_end: 2025-10-31
+    summary: |
+      Course: 703076 PS Machine Learning
+      - Leading seminars on machine learning fundamentals for bachelor students
+      - Preparing practical exercises and assignments
+      - Evaluating student performance and providing feedback
+  - position: Proseminar Instructor
+    company_name: University of Innsbruck
+    company_url: https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=24W&lvnr_id_in=703068&sprache_in=en
+    company_logo: ''
+    date_start: 2024-10-01
+    date_end: 2025-02-28
+    summary: |
+      Course: 703068 PS Data and Probabilities
+      - Leading seminars on data analysis and probability theory for bachelor students
+      - Preparing course materials and assignments
+      - Evaluating student performance and providing feedback
+  - position: Proseminar Instructor
+    company_name: University of Innsbruck
+    company_url: https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=24S&lvnr_id_in=703076&sprache_in=en
+    company_logo: ''
+    date_start: 2024-03-01
+    date_end: 2024-06-30
+    summary: |
+      Course: 703076 PS Machine Learning
+      - Led seminars on machine learning fundamentals for bachelor students
+      - Designed practical exercises and assignments
+      - Mentored students in machine learning concepts and applications
+  - position: Proseminar Instructor
+    company_name: University of Innsbruck
+    company_url: https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=23W&lvnr_id_in=703068&sprache_in=en
+    company_logo: ''
+    date_start: 2023-10-01
+    date_end: 2024-02-28
+    summary: |
+      Course: 703068 PS Data and Probabilities
+      - Led seminars on data analysis and probability theory for bachelor students
+      - Prepared course materials and assignments
+      - Evaluated student performance and provided feedback
+  - position: Proseminar Instructor
+    company_name: University of Innsbruck
+    company_url: https://lfuonline.uibk.ac.at/public/lfuonline_lv.details?sem_id_in=22W&lvnr_id_in=703034&sprache_in=en
+    company_logo: ''
+    date_start: 2022-10-01
+    date_end: 2023-02-28
+    summary: |
+      Course: 703034 PS Computer Networks and Internet Technology
+      - Led seminars on computer networking and internet technologies for bachelor students
+      - Designed practical exercises and lab sessions
+      - Mentored students in understanding network protocols and technologies
+   
+      - 
 # Skills
 skills:
   - name: Technical Skills
@@ -152,6 +232,6 @@ awards:
       Awarded merit-based scholarship for one semester during Master of Computer Engineering program.
 ---
 
-Bhawna Piryani is a PhD researcher specializing in Natural Language Processing, with a particular focus on Temporal Question Answering and Information Retrieval. Her research aims to develop advanced AI systems that can better understand and respond to time-sensitive queries.
+Bhawna Piryani is a PhD researcher specializing in Natural Language Processing, with a particular focus on Temporal Question Answering and Information Retrieval. Her research aims to develop advanced AI systems that can better understand and respond to time-sensitive queries, as well as improve information access from diverse sources including historical documents.
 
-She is passionate about making information more accessible through improved natural language understanding and has published several papers on temporal aspects of question answering systems.
+She is passionate about making information more accessible through improved natural language understanding and has published several papers on information retrieval and temporal aspects of question answering systems.
