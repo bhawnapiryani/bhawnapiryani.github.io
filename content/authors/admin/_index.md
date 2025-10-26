@@ -77,7 +77,7 @@ work:
     company_url: https://lisnepal.com.np/
     company_logo: ''
     date_start: 2016-01-01
-    date_end: 2016-09-31
+    date_end: 2016-09-30
     summary: |
       Responsibilities include:
       - Developed machine learning models for text classification
