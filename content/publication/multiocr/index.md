@@ -5,6 +5,8 @@ title: 'Evaluating Robustness of LLMs in Question Answering on Multilingual Nois
 authors:
   - admin
   - Jamshid Mozafari
+  - Abdelrehman Abdallah
+  - Antoine Doucet
   - Adam Jatowt
 
 date: '2025-10-10T00:00:00Z'
@@ -34,17 +36,33 @@ tags:
   - OCR Text
   - Score A
 
+# Display this page in the Featured widget?
+featured: true
+
+# Links - order matters for display
+links:
+  - name: Paper
+    url: 'https://arxiv.org/abs/2502.16781'
+    icon_pack: fas
+    icon: file-pdf
+  - name: Code
+    url: 'https://github.com/DataScienceUIBK/MultiOCR-QA'
+    icon_pack: fab
+    icon: github
+  - name: Dataset
+    url: 'https://huggingface.co/datasets/Bhawna/MultiOCR-QA'
+    icon_pack: fas
+    icon: database
 
 url_pdf: ''
-url_code: 'https://github.com/DataScienceUIBK/MultiOCR-QA'
-url_dataset: 'https://huggingface.co/datasets/Bhawna/MultiOCR-QA'
+url_code: ''
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://arxiv.org/abs/2502.16781'
+url_source: ''
 url_video: ''
 
-# Display this page in the Featured widget?
-featured: true
+
 ---
 
