@@ -1,5 +1,5 @@
 ---
-title: 'It's High Time: A Survey of Temporal Question Answering'
+title: "It's High Time: A Survey of Temporal Question Answering"
 
 # Authors
 authors:
