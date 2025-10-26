@@ -34,6 +34,11 @@ tags:
   - Score A
 
 featured: true
+share: false           # Removes social sharing buttons
+show_related: false    # Removes related content
+profile: false         # Removes author card
+show_last_modified: false       # Removes "Last updated" date
+reading_time: false    # Removes reading time estimate
 
 # Custom links
 links:
@@ -67,52 +72,3 @@ image:
   preview_only: false
 ---
 
-## Overview
-
-This paper introduces **MultiOCR-QA**, a comprehensive multilingual dataset designed to evaluate how OCR noise affects question-answering systems. Our work addresses a critical gap in QA research by focusing on the realistic scenario of noisy OCR text from historical documents.
-
-## Key Contributions
-
-- **Large-scale multilingual dataset**: 50K question-answer pairs across English, French, and German
-- **Realistic OCR noise**: Curated from actual OCR-ed historical documents with varying noise levels
-- **Comprehensive evaluation**: Analysis of state-of-the-art LLMs under different OCR error conditions
-- **Error type analysis**: Focus on three major OCR error types and their impact
-
-## Dataset Statistics
-
-The MultiOCR-QA dataset includes:
-- **Languages**: English, French, German
-- **Question-Answer Pairs**: 50,000
-- **Source**: Historical digitized documents
-- **OCR Quality Levels**: Multiple noise levels for controlled experiments
-
-## Key Findings
-
-Our experiments reveal that:
-1. QA systems are highly sensitive to OCR-induced errors
-2. Performance degrades significantly on noisy OCR text
-3. Current LLMs struggle with character-level noise in multilingual contexts
-4. There is a critical need for more robust QA systems
-
-## Access the Dataset
-
-The MultiOCR-QA dataset is publicly available on Hugging Face. You can access it at:
-- **Dataset**: [Hugging Face - MultiOCR-QA](https://huggingface.co/datasets/Bhawna/MultiOCR-QA)
-- **Code**: [GitHub Repository](https://github.com/DataScienceUIBK/MultiOCR-QA)
-
-## Citation
-
-If you use this dataset or find our work helpful, please cite:
-
-```bibtex
-@inproceedings{piryani2025multiocr,
-  title={Evaluating Robustness of LLMs in Question Answering on Multilingual Noisy OCR Data},
-  author={Piryani, Bhawna and Mozafari, Jamshid and Abdallah, Abdelrahman and Doucet, Antoine and Jatowt, Adam},
-  booktitle={Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
-  year={2025}
-}
-```
-
-## Acknowledgments
-
-This work was conducted at the University of Innsbruck's Data Science Group and Digital Science Center. We thank the reviewers for their valuable feedback.
