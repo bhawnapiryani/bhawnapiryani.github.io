@@ -58,7 +58,20 @@ education:
     summary: |
       GPA: 3/4  
       Thesis: "Review's Sentiment Analyzer"
-      
+    
+work:
+  - position: PhD Researcher
+    company_name: Data Science Group, Digital Science Center
+    company_url: https://www.uibk.ac.at/de/disc/
+    company_logo: ''
+    date_start: 2022-08-01
+    date_end: ''
+    summary: |
+      Responsibilities include:
+      - Conducting research in Natural Language Processing and Temporal Question Answering
+      - Developing advanced AI systems for time-sensitive information retrieval
+      - Publishing research papers in top-tier NLP conferences
+      - Collaborating with international research teams
 
 
 # Skills
