@@ -73,11 +73,11 @@ work:
       - Publishing research papers in NLP conferences
       - Collaborating on information retrieval projects
   - position: Software Engineer Intern
-    company_name: Tech Company
-    company_url: ''
+    company_name: LIS Nepal
+    company_url: 'https://lisnepal.com.np/'
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-08-31
+    date_start: 2016-01-01
+    date_end: 2016-09-31
     summary: |
       Responsibilities include:
       - Developed machine learning models for text classification
