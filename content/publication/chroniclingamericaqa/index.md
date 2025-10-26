@@ -38,14 +38,32 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
+show_related: false
+profile: false
+
+# Links - order matters for display
+links:
+  - name: Paper
+    url: 'https://dl.acm.org/doi/10.1145/3626772.3657891'
+    icon_pack: fas
+    icon: file-pdf
+  - name: Code
+    url: 'https://github.com/DataScienceUIBK/ChroniclingAmericaQA'
+    icon_pack: fab
+    icon: github
+  - name: Dataset
+    url: 'https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA'
+    icon_pack: fas
+    icon: database
+
 
 url_pdf: ''
-url_code: 'https://github.com/DataScienceUIBK/ChroniclingAmericaQA'
-url_dataset: 'https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA'
+url_code: ''
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://dl.acm.org/doi/10.1145/3626772.3657891'
+url_source: ''
 url_video: ''
 
 ---
