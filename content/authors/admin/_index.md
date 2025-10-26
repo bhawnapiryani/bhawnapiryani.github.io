@@ -28,7 +28,7 @@ profiles:
   - icon: at-symbol
     url: 'mailto:bhawna.piryani@gmail.com'
     label: E-mail Me
-- icon: academicons/google-scholar
+  - icon: academicons/google-scholar
     link: https://scholar.google.com/citations?user=GwJtRX0AAAAJ&hl=en
   - icon: brands/github
     url: https://github.com/bhawnapiryani
