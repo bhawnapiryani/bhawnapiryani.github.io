@@ -38,8 +38,11 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
-show_related: false
-profile: false
+share: false           # Removes social sharing buttons
+show_related: false    # Removes related content
+profile: false         # Removes author card
+show_date: false       # Removes "Last updated" date
+reading_time: false    # Removes reading time estimate
 
 # Links - order matters for display
 links:
