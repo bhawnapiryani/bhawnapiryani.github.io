@@ -8,10 +8,6 @@ main:
     url: /
     weight: 10
   
-  - name: CV
-    url: uploads/resume.pdf
-    weight: 20
-  
   - name: Publications
     url: /publication/
     weight: 30
