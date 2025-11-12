@@ -9,7 +9,7 @@ authors:
   - Antoine Doucet
   - Adam Jatowt
 
-date: '2025-10-10T00:00:00Z'
+date: '2025-11-10T00:00:00Z'
 doi: '10.1145/3746252.3761295'
 
 # Schedule page publish date (NOT publication's date)
