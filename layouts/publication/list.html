@@ -1,0 +1,197 @@
+{{/* Custom Publication List Layout */}}
+{{/* Create this file as: layouts/publication/list.html */}}
+
+{{ define "main" }}
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Content }}
+  <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{/* Group publications by year */}}
+  {{ range .Data.Pages.GroupByDate "2006" "desc" }}
+  
+  <div class="pub-list-year">
+    <h2 class="year-heading">{{ .Key }}</h2>
+    <hr class="year-divider">
+  </div>
+
+  {{/* List publications for this year */}}
+  {{ range .Pages }}
+  <div class="pub-list-item" style="margin-bottom: 2rem;">
+    
+    {{/* Conference Badge */}}
+    <div style="margin-bottom: 0.5rem;">
+      {{ with .Params.publication_short }}
+      <span class="badge-pub">{{ . }}</span>
+      {{ end }}
+    </div>
+
+    {{/* Publication Title */}}
+    <div class="section-subheading">
+      <a href="{{ .RelPermalink }}" style="color: #9333ea; text-decoration: none;">
+        {{ .Title }}
+      </a>
+    </div>
+
+    {{/* Authors */}}
+    <div class="pub-authors" style="margin-top: 0.25rem; margin-bottom: 0.25rem;">
+      {{ if .Params.authors }}
+        {{ $authors := .Params.authors }}
+        {{ $total := len $authors }}
+        {{ $show := 3 }}
+        
+        {{ range $index, $author := $authors }}
+          {{ if lt $index $show }}
+            {{ if eq $author "admin" }}
+              <strong>Bhawna Piryani</strong>
+            {{ else }}
+              {{ $author }}
+            {{ end }}
+            {{ if lt (add $index 1) $total }}, {{ end }}
+          {{ end }}
+        {{ end }}
+        
+        {{ if gt $total $show }}
+          <span class="more-authors" style="color: #9ca3af; cursor: pointer;" onclick="toggleAuthors(this)">
+            and {{ sub $total $show }} more authors
+          </span>
+          <span class="full-authors" style="display: none;">
+            {{ range $index, $author := $authors }}
+              {{ if ge $index $show }}
+                , {{ if eq $author "admin" }}
+                  <strong>Bhawna Piryani</strong>
+                {{ else }}
+                  {{ $author }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </span>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{/* Publication Venue */}}
+    <div class="pub-venue" style="font-style: italic; margin-bottom: 0.5rem; color: #4b5563;">
+      {{ .Params.publication }}
+    </div>
+
+    {{/* Action Buttons */}}
+    <div class="pub-links">
+      {{ if .Params.url_pdf }}
+      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_pdf }}" target="_blank" rel="noopener">
+        ARXIV
+      </a>
+      {{ end }}
+      
+      {{ if .Params.url_code }}
+      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_code }}" target="_blank" rel="noopener">
+        CODE
+      </a>
+      {{ end }}
+      
+      {{ if .Params.url_dataset }}
+      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_dataset }}" target="_blank" rel="noopener">
+        DATASET
+      </a>
+      {{ end }}
+      
+      {{ if .Params.url_project }}
+      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_project }}" target="_blank" rel="noopener">
+        PROJECT
+      </a>
+      {{ end }}
+      
+      {{ if .Params.url_slides }}
+      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_slides }}" target="_blank" rel="noopener">
+        SLIDES
+      </a>
+      {{ end }}
+      
+      {{ if .Params.url_video }}
+      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_video }}" target="_blank" rel="noopener">
+        VIDEO
+      </a>
+      {{ end }}
+    </div>
+
+  </div>
+  {{ end }}
+  {{ end }}
+
+</div>
+
+<script>
+function toggleAuthors(element) {
+  const fullAuthors = element.nextElementSibling;
+  if (fullAuthors.style.display === 'none') {
+    fullAuthors.style.display = 'inline';
+    element.style.display = 'none';
+  }
+}
+</script>
+
+<style>
+/* Publication badge styling */
+.badge-pub {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Year styling */
+.year-heading {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #d1d5db;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.year-divider {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Button styling */
+.btn-outline-primary {
+  border: 1px solid #d1d5db;
+  color: #374151;
+  background: white;
+  padding: 0.25rem 0.75rem;
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.btn-outline-primary:hover {
+  background: #f3f4f6;
+  text-decoration: none;
+}
+
+/* More authors link */
+.more-authors {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.more-authors:hover {
+  color: #6b7280;
+}
+</style>
+
+{{ end }}
