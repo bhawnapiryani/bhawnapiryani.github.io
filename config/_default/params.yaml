@@ -58,3 +58,7 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+# ADD THIS SECTION - Required for custom publication styling
+plugins_css: 
+  - "scss/custom.scss"  # This loads your custom publication styles
