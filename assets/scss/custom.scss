@@ -1,10 +1,11 @@
 /* Custom CSS for Publication Page */
 /* Save as: assets/scss/custom.scss */
 
-/* Conference Badge Colors */
+/* Conference Badge Colors - All Emerald */
 .badge-pub {
   display: inline-block;
   padding: 0.25rem 0.75rem;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   color: white;
   font-weight: 600;
   font-size: 0.75rem;
@@ -12,43 +13,6 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
-}
-
-/* Different colors for different conferences */
-/* WSDM - Purple gradient */
-.badge-pub[data-venue="WSDM"],
-.pub-list-item:has(.badge-pub:contains("WSDM")) .badge-pub {
-  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
-}
-
-/* CIKM - Purple */
-.badge-pub[data-venue="CIKM"] {
-  background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%);
-}
-
-/* EMNLP - Orange/Red */
-.badge-pub[data-venue="EMNLP"] {
-  background: linear-gradient(135deg, #f59e0b 0%, #dc2626 100%);
-}
-
-/* SIGIR - Blue */
-.badge-pub[data-venue="SIGIR"] {
-  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
-}
-
-/* ECIR - Green */
-.badge-pub[data-venue="ECIR"] {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-}
-
-/* ACL - Teal */
-.badge-pub[data-venue="ACL"] {
-  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
-}
-
-/* Default - Purple */
-.badge-pub {
-  background: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
 }
 
 /* Year section styling */
@@ -85,7 +49,7 @@
 
 /* Publication title */
 .section-subheading a {
-  color: #9333ea;
+  color: #10b981;
   text-decoration: none;
   font-size: 1.125rem;
   font-weight: 500;
@@ -94,7 +58,7 @@
 }
 
 .section-subheading a:hover {
-  color: #7c3aed;
+  color: #059669;
   text-decoration: underline;
 }
 
@@ -213,11 +177,11 @@
   }
   
   .section-subheading a {
-    color: #a78bfa;
+    color: #34d399;
   }
   
   .section-subheading a:hover {
-    color: #c4b5fd;
+    color: #6ee7b7;
   }
   
   .pub-authors {
