@@ -9,7 +9,7 @@ main:
     weight: 10
   
   - name: Publications
-    url: /publication/
+    url: '/publication/'
     weight: 30
   
   # - name: Projects
