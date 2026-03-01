@@ -22,97 +22,86 @@
   <div class="pub-list-item" style="margin-bottom: 2rem;">
     
     {{/* Conference Badge and Publication Title - inline */}}
-    <div style="margin-bottom: 0.5rem; display: flex; align-items: center; gap: 1rem;">
+    <div style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; gap: 1rem;">
       {{ with .Params.publication_short }}
       <span class="badge-pub">{{ . }}</span>
       {{ end }}
       
-      <div class="section-subheading" style="flex: 1;">
-        <a href="{{ .RelPermalink }}" style="color: #047857; text-decoration: none;">
-          {{ .Title }}
-        </a>
-      </div>
-    </div>
+      <div style="flex: 1;">
+        {{/* Publication Title */}}
+        <div class="section-subheading" style="margin-bottom: 0.25rem;">
+          <a href="{{ .RelPermalink }}" style="color: #047857; text-decoration: none;">
+            {{ .Title }}
+          </a>
+        </div>
 
-    {{/* Authors */}}
-    <div class="pub-authors" style="margin-top: 0.25rem; margin-bottom: 0.25rem;">
-      {{ if .Params.authors }}
-        {{ $authors := .Params.authors }}
-        {{ $total := len $authors }}
-        {{ $show := 3 }}
-        
-        {{ range $index, $author := $authors }}
-          {{ if lt $index $show }}
-            {{ if eq $author "admin" }}
-              <strong>Bhawna Piryani</strong>
-            {{ else }}
-              {{ $author }}
-            {{ end }}
-            {{ if lt (add $index 1) $total }}, {{ end }}
-          {{ end }}
-        {{ end }}
-        
-        {{ if gt $total $show }}
-          <span class="more-authors" style="color: #9ca3af; cursor: pointer;" onclick="toggleAuthors(this)">
-            and {{ sub $total $show }} more authors
-          </span>
-          <span class="full-authors" style="display: none;">
+        {{/* Authors */}}
+        <div class="pub-authors" style="margin-bottom: 0.25rem;">
+          {{ if .Params.authors }}
+            {{ $authors := .Params.authors }}
+            {{ $total := len $authors }}
+            
             {{ range $index, $author := $authors }}
-              {{ if ge $index $show }}
-                , {{ if eq $author "admin" }}
-                  <strong>Bhawna Piryani</strong>
-                {{ else }}
-                  {{ $author }}
-                {{ end }}
+              {{ if eq $author "admin" }}
+                <strong>Bhawna Piryani</strong>
+              {{ else }}
+                {{ $author }}
               {{ end }}
+              {{ if lt (add $index 1) $total }} , {{ end }}
             {{ end }}
-          </span>
-        {{ end }}
-      {{ end }}
-    </div>
+          {{ end }}
+        </div>
 
-    {{/* Publication Venue */}}
-    <div class="pub-venue" style="font-style: italic; margin-bottom: 0.5rem; color: #4b5563;">
-      {{ .Params.publication }}
-    </div>
+        {{/* Publication Venue */}}
+        <div class="pub-venue" style="font-style: italic; margin-bottom: 0.5rem; color: #4b5563;">
+          {{ .Params.publication }}
+        </div>
 
-    {{/* Action Buttons */}}
-    <div class="pub-links">
-      {{ if .Params.url_pdf }}
-      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_pdf }}" target="_blank" rel="noopener">
-        ARXIV
-      </a>
-      {{ end }}
-      
-      {{ if .Params.url_code }}
-      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_code }}" target="_blank" rel="noopener">
-        CODE
-      </a>
-      {{ end }}
-      
-      {{ if .Params.url_dataset }}
-      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_dataset }}" target="_blank" rel="noopener">
-        DATASET
-      </a>
-      {{ end }}
-      
-      {{ if .Params.url_project }}
-      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_project }}" target="_blank" rel="noopener">
-        PROJECT
-      </a>
-      {{ end }}
-      
-      {{ if .Params.url_slides }}
-      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_slides }}" target="_blank" rel="noopener">
-        SLIDES
-      </a>
-      {{ end }}
-      
-      {{ if .Params.url_video }}
-      <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_video }}" target="_blank" rel="noopener">
-        VIDEO
-      </a>
-      {{ end }}
+        {{/* Action Buttons */}}
+        <div class="pub-links">
+          {{ if .Params.url_pdf }}
+          <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_pdf }}" target="_blank" rel="noopener">
+            PAPER
+          </a>
+          {{ end }}
+          
+          {{ if .Params.url_code }}
+          <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_code }}" target="_blank" rel="noopener">
+            CODE
+          </a>
+          {{ end }}
+          
+          {{ if .Params.url_bib }}
+          <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_bib }}" target="_blank" rel="noopener">
+            BIB
+          </a>
+          {{ end }}
+          
+          {{ if .Params.url_dataset }}
+          <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_dataset }}" target="_blank" rel="noopener">
+            DATASET
+          </a>
+          {{ end }}
+          
+          {{ if .Params.url_project }}
+          <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_project }}" target="_blank" rel="noopener">
+            PROJECT
+          </a>
+          {{ end }}
+          
+          {{ if .Params.url_slides }}
+          <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_slides }}" target="_blank" rel="noopener">
+            SLIDES
+          </a>
+          {{ end }}
+          
+          {{ if .Params.url_video }}
+          <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_video }}" target="_blank" rel="noopener">
+            VIDEO
+          </a>
+          {{ end }}
+        </div>
+      </div>
     </div>
 
   </div>
@@ -120,16 +109,6 @@
   {{ end }}
 
 </div>
-
-<script>
-function toggleAuthors(element) {
-  const fullAuthors = element.nextElementSibling;
-  if (fullAuthors.style.display === 'none') {
-    fullAuthors.style.display = 'inline';
-    element.style.display = 'none';
-  }
-}
-</script>
 
 <style>
 /* Publication badge styling */
@@ -181,16 +160,6 @@ function toggleAuthors(element) {
 .btn-outline-primary:hover {
   background: #f3f4f6;
   text-decoration: none;
-}
-
-/* More authors link */
-.more-authors {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-}
-
-.more-authors:hover {
-  color: #6b7280;
 }
 </style>
 
