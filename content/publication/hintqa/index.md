@@ -52,9 +52,10 @@ links:
     icon_pack: fas
     icon: database
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://aclanthology.org/2024.findings-emnlp.546/'
+url_code: 'https://github.com/datascienceuibk/hintqa'
 url_dataset: ''
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/hintqa/cite.bib'
 url_poster: ''
 url_project: ''
 url_slides: ''
