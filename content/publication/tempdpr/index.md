@@ -43,8 +43,9 @@ links:
     icon_pack: fas
     icon: file-pdf
 
-url_pdf: ''
+url_pdf: 'https://doi.org/10.1145/3773966.3777938'
 url_code: ''
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/tempdpr/cite.bib'
 url_dataset: ''
 url_poster: ''
 url_project: ''
