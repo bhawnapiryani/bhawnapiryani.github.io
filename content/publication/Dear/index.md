@@ -54,7 +54,7 @@ links:
 
 url_pdf: 'https://aclanthology.org/2025.findings-emnlp.306/'
 url_code: 'https://github.com/DataScienceUIBK/DeAR-Reranking'
-url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/multiocr/cite.bib'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/Dear/cite.bib'
 url_dataset: ''
 url_poster: ''
 url_project: ''
