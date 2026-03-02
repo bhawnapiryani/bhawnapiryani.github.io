@@ -50,8 +50,9 @@ links:
     icon: file-pdf
 
 
-url_pdf: ''
+url_pdf: 'https://aclanthology.org/2025.coling-main.319/'
 url_code: ''
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/dynrank/cite.bib'
 url_dataset: ''
 url_poster: ''
 url_project: ''
