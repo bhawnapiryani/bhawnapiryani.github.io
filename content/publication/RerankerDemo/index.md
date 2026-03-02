@@ -3,7 +3,6 @@ title: 'Rankarena: A unified platform for evaluating retrieval, reranking and ra
 
 # Authors
 authors:
-  - admin
   - Abdelrahman Abdallah
   - Mahmoud Abdalla
   - admin
