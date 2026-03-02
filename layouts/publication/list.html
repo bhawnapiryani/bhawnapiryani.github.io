@@ -71,16 +71,16 @@
           </a>
           {{ end }}
           
-          {{ if .Params.url_bib }}
-          <button class="btn btn-outline-primary btn-sm" onclick="showBibModal('{{ .Params.url_bib }}', '{{ .Title }}')">
-            BIB
-          </button>
-          {{ end }}
-          
           {{ if .Params.url_dataset }}
           <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_dataset }}" target="_blank" rel="noopener">
             DATASET
           </a>
+          {{ end }}
+
+          {{ if .Params.url_bib }}
+          <button class="btn btn-outline-primary btn-sm" onclick="showBibModal('{{ .Params.url_bib }}', '{{ .Title }}')">
+            BIB
+          </button>
           {{ end }}
           
           {{ if .Params.url_project }}
