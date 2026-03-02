@@ -40,10 +40,22 @@ profile: false         # Removes author card
 show_last_modified: false       # Removes "Last updated" date
 reading_time: false    # Removes reading time estimate
 
+#URL fields for the publication list page buttons
+url_pdf: 'https://dl.acm.org/doi/10.1145/3746252.3761295'
+url_code: 'https://github.com/DataScienceUIBK/MultiOCR-QA'
+url_dataset: 'https://huggingface.co/datasets/Bhawna/MultiOCR-QA'
+url_bib: ''  # Add your BibTeX file URL here when you have it
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
+
+
 # Custom links
 links:
   - name: Paper
-    url: 'https://arxiv.org/abs/2502.16781'
+    url: 'https://dl.acm.org/doi/10.1145/3746252.3761295'
     icon_pack: fas
     icon: file-pdf
   - name: Code
