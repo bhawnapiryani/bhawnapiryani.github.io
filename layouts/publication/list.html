@@ -56,7 +56,7 @@
         <div class="pub-venue" style="font-style: italic; margin-bottom: 0.5rem; color: #4b5563;">
           {{ .Params.publication }}
         </div>
-        
+
         {{/* Action Buttons */}}
         <div class="pub-links">
           {{ if .Params.url_pdf }}
@@ -72,9 +72,9 @@
           {{ end }}
           
           {{ if .Params.url_bib }}
-          <a class="btn btn-outline-primary btn-sm" href="{{ .Params.url_bib }}" target="_blank" rel="noopener">
+          <button class="btn btn-outline-primary btn-sm" onclick="showBibModal('{{ .Params.url_bib }}', '{{ .Title }}')">
             BIB
-          </a>
+          </button>
           {{ end }}
           
           {{ if .Params.url_dataset }}
@@ -109,6 +109,81 @@
   {{ end }}
 
 </div>
+
+<!-- BibTeX Modal -->
+<div id="bibModal" class="bib-modal">
+  <div class="bib-modal-content">
+    <div class="bib-modal-header">
+      <h3>Citation</h3>
+      <button class="bib-modal-close" onclick="closeBibModal()">&times;</button>
+    </div>
+    <div class="bib-modal-body">
+      <pre id="bibContent" class="bib-text"></pre>
+    </div>
+    <div class="bib-modal-footer">
+      <button class="btn btn-outline-primary" onclick="copyBibToClipboard()">
+        <span id="copyBtnText">Copy to Clipboard</span>
+      </button>
+      <button class="btn btn-outline-primary" onclick="closeBibModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+async function showBibModal(bibUrl, paperTitle) {
+  const modal = document.getElementById('bibModal');
+  const bibContent = document.getElementById('bibContent');
+  
+  // Show modal
+  modal.style.display = 'flex';
+  bibContent.textContent = 'Loading citation...';
+  
+  try {
+    const response = await fetch(bibUrl);
+    const bibText = await response.text();
+    bibContent.textContent = bibText;
+  } catch (error) {
+    bibContent.textContent = 'Error loading citation. Please try again.';
+    console.error('Error fetching BibTeX:', error);
+  }
+}
+
+function closeBibModal() {
+  document.getElementById('bibModal').style.display = 'none';
+  document.getElementById('copyBtnText').textContent = 'Copy to Clipboard';
+}
+
+async function copyBibToClipboard() {
+  const bibText = document.getElementById('bibContent').textContent;
+  const copyBtn = document.getElementById('copyBtnText');
+  
+  try {
+    await navigator.clipboard.writeText(bibText);
+    copyBtn.textContent = 'Copied!';
+    setTimeout(() => {
+      copyBtn.textContent = 'Copy to Clipboard';
+    }, 2000);
+  } catch (error) {
+    console.error('Failed to copy:', error);
+    copyBtn.textContent = 'Failed to copy';
+  }
+}
+
+// Close modal when clicking outside
+window.onclick = function(event) {
+  const modal = document.getElementById('bibModal');
+  if (event.target === modal) {
+    closeBibModal();
+  }
+}
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeBibModal();
+  }
+});
+</script>
 
 <style>
 /* Publication badge styling */
@@ -157,11 +232,107 @@
   letter-spacing: 0.05em;
   display: inline-block;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .btn-outline-primary:hover {
   background: #f3f4f6;
   text-decoration: none;
+}
+
+/* BibTeX Modal Styles */
+.bib-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.bib-modal-content {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  max-width: 700px;
+  width: 90%;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bib-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.bib-modal-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.bib-modal-close {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  transition: all 0.2s;
+}
+
+.bib-modal-close:hover {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+.bib-modal-body {
+  padding: 1.5rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.bib-text {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+  color: #1f2937;
+}
+
+.bib-modal-footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.bib-modal-footer .btn-outline-primary {
+  margin: 0;
+  padding: 0.5rem 1rem;
 }
 </style>
 
