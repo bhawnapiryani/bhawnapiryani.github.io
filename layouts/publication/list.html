@@ -57,6 +57,14 @@
           {{ .Params.publication }}
         </div>
 
+        {{/* DEBUG - Remove this after testing */}}
+        <div style="background: #fef3c7; padding: 0.5rem; margin-bottom: 0.5rem; font-size: 0.75rem;">
+          DEBUG: 
+          url_pdf = "{{ .Params.url_pdf }}" | 
+          url_code = "{{ .Params.url_code }}" | 
+          url_dataset = "{{ .Params.url_dataset }}"
+        </div>
+        
         {{/* Action Buttons */}}
         <div class="pub-links">
           {{ if .Params.url_pdf }}
