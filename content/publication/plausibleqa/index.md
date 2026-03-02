@@ -51,9 +51,10 @@ links:
     icon_pack: fas
     icon: database
 
-url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_pdf: 'https://dl.acm.org/doi/10.1145/3726302.3730299'
+url_code: 'https://github.com/DataScienceUIBK/PlausibleQA/tree/main'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/plausibleqa/cite.bib'
+url_dataset: 'https://huggingface.co/datasets/JamshidJDMY/PlausibleQA'
 url_poster: ''
 url_project: ''
 url_slides: ''
