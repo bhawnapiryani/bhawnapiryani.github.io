@@ -60,9 +60,10 @@ links:
     icon: database
 
 
-url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_pdf: 'https://dl.acm.org/doi/10.1145/3626772.3657891'
+url_code: 'https://github.com/DataScienceUIBK/ChroniclingAmericaQA'
+url_dataset: 'https://huggingface.co/datasets/Bhawna/ChroniclingAmericaQA'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/chroniclingamericaqa/cite.bib'
 url_poster: ''
 url_project: ''
 url_slides: ''
