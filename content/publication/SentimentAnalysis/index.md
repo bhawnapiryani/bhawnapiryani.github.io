@@ -8,7 +8,7 @@ authors:
   - Vivek Kumar Singh
   - David Pinto
   
-date: '2025-09-12T00:00:00Z'
+date: '2020-09-12T00:00:00Z'
 
 
 # Schedule page publish date (NOT publication's date)
@@ -21,8 +21,8 @@ date: '2025-09-12T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name
-publication: "Arxiv"
-publication_short: "Arxiv 2025"
+publication: "Journal of Intelligent & Fuzzy Systems: Applications in Engineering and Technology"
+publication_short: "JIFS"
 
 abstract: "Time plays a critical role in how information is generated, retrieved, and interpreted. In this survey, we provide a comprehensive overview of Temporal Question Answering (TQA), a research area that focuses on answering questions involving temporal constraints or context. As the amount of time-stamped content from sources like news articles, web archives, and knowledge bases increases, systems must address challenges such as detecting temporal intent, normalizing time expressions, ordering events, and reasoning over evolving or ambiguous facts. We focus on recent advances in TQA enabled by neural architectures, especially transformer-based models and Large Language Models (LLMs), highlighting progress in temporal language modeling, retrieval-augmented generation (RAG), and temporal reasoning. We also discuss benchmark datasets and evaluation strategies designed to test temporal robustness, recency awareness, and generalization."
 
