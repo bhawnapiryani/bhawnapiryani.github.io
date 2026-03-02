@@ -1,6 +1,16 @@
-@article{abdallah2025tempretriever,
-  title={Tempretriever: Fusion-based temporal dense passage retrieval for time-sensitive questions},
-  author={Abdallah, Abdelrahman and Piryani, Bhawna and Wallat, Jonas and Anand, Avishek and Jatowt, Adam},
-  journal={arXiv preprint arXiv:2502.21024},
-  year={2025}
+@inproceedings{abdallah2025tempretriever,
+author = {Abdallah, Abdelrahman and Piryani, Bhawna and Wallat, Jonas and Anand, Avishek and Jatowt, Adam},
+title = {TempRetriever: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions},
+year = {2026},
+isbn = {9798400722929},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3773966.3777938},
+doi = {10.1145/3773966.3777938},
+booktitle = {Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining},
+pages = {5–15},
+numpages = {11},
+keywords = {temporal question answering, dense passage retrieval, temporal information retrieval},
+location = {USA},
+series = {WSDM '26}
 }
