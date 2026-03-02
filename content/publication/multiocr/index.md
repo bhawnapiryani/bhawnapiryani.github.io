@@ -59,7 +59,7 @@ links:
 url_pdf: 'https://dl.acm.org/doi/10.1145/3746252.3761295'
 url_code: 'https://github.com/DataScienceUIBK/MultiOCR-QA'
 url_dataset: 'https://huggingface.co/datasets/Bhawna/MultiOCR-QA'
-url_bib: ''  # Add your BibTeX file URL here when you have it
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/multiocr/cite.bib'
 url_poster: ''
 url_project: ''
 url_slides: ''
