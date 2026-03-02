@@ -40,7 +40,7 @@ profile: false         # Removes author card
 show_last_modified: false       # Removes "Last updated" date
 reading_time: false    # Removes reading time estimate
 
-#URL fields for the publication list page buttons
+# URL fields for the publication list page buttons
 url_pdf: 'https://dl.acm.org/doi/10.1145/3746252.3761295'
 url_code: 'https://github.com/DataScienceUIBK/MultiOCR-QA'
 url_dataset: 'https://huggingface.co/datasets/Bhawna/MultiOCR-QA'
