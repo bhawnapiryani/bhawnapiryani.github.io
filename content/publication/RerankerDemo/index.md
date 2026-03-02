@@ -36,12 +36,13 @@ reading_time: false    # Removes reading time estimate
 # Custom links
 links:
   - name: Paper
-    url: 'https://arxiv.org/abs/2508.05512'
+    url: 'https://dl.acm.org/doi/10.1145/3746252.3761484'
     icon_pack: fas
     icon: file-pdf
   
-url_pdf: ''
+url_pdf: 'https://dl.acm.org/doi/10.1145/3746252.3761484'
 url_code: ''
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/multiocr/cite.bib'
 url_dataset: ''
 url_poster: ''
 url_project: ''
