@@ -51,8 +51,9 @@ links:
  
 
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://link.springer.com/article/10.1186/s40537-023-00802-8'
+url_code: 'https://github.com/abdoelsayed2016/Legal-Question-Answering-Review'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/legalsurvey/cite.bib'
 url_dataset: ''
 url_poster: ''
 url_project: ''
