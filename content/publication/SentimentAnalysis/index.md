@@ -8,70 +8,58 @@ authors:
   - Vivek Kumar Singh
   - David Pinto
   
+date: '2025-09-12T00:00:00Z'
 
-date: '2020-11-10T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date)
-publishDate: '2025-02-10T00:00:00Z'
+#publishDate: '2025-09-12T00:00:00Z'
 
 # Publication type
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name
-publication: "Journal of Intelligent & Fuzzy Systems: Applications in Engineering and Technology"
-publication_short: "JIFS"
+publication: "Arxiv"
+publication_short: "Arxiv 2025"
 
-
-summary: Sentiment analysis in Nepali: Exploring machine learning and lexicon-based approaches.
+abstract: "Time plays a critical role in how information is generated, retrieved, and interpreted. In this survey, we provide a comprehensive overview of Temporal Question Answering (TQA), a research area that focuses on answering questions involving temporal constraints or context. As the amount of time-stamped content from sources like news articles, web archives, and knowledge bases increases, systems must address challenges such as detecting temporal intent, normalizing time expressions, ordering events, and reasoning over evolving or ambiguous facts. We focus on recent advances in TQA enabled by neural architectures, especially transformer-based models and Large Language Models (LLMs), highlighting progress in temporal language modeling, retrieval-augmented generation (RAG), and temporal reasoning. We also discuss benchmark datasets and evaluation strategies designed to test temporal robustness, recency awareness, and generalization."
 
 tags:
-  - Lexicon-based sentiment analysis
-  - Nepali language
-  - Twitter sentiment analysis
-  - Nepali SentiWordNet
-  - deep learning
-  - sentiment analysis
+  - Temporal QA
+  - Score A*
 
+# Display this page in the Featured widget?
 featured: true
+
 share: false           # Removes social sharing buttons
 show_related: false    # Removes related content
 profile: false         # Removes author card
-show_last_modified: false       # Removes "Last updated" date
+show_date: false       # Removes "Last updated" date
 reading_time: false    # Removes reading time estimate
 
-# URL fields for the publication list page buttons
-url_pdf: 'https://journals.sagepub.com/doi/10.3233/JIFS-179884'
-url_code: ''
+# Links - order matters for display
+links:
+  - name: Paper
+    url: 'https://arxiv.org/abs/2505.20243'
+    icon_pack: fas
+    icon: file-pdf
+  - name: Code
+    url: 'https://github.com/DataScienceUIBK/TemporalQA-Survey'
+    icon_pack: fab
+    icon: github
+
+
+
+url_pdf: 'https://arxiv.org/abs/2505.20243'
+url_code: 'https://github.com/DataScienceUIBK/TemporalQA-Survey'
 url_dataset: ''
-url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/SentimentAnalysis/cite.bib'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/temporalQaSurvey/cite.bib'
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
 
-
-# Custom links
-links:
-  - name: Paper
-    url: 'https://journals.sagepub.com/doi/10.3233/JIFS-179884'
-    icon_pack: fas
-    icon: file-pdf
-  - name: Code
-    url: ''
-    icon_pack: fab
-    icon: github
-  - name: Dataset
-    url: ''
-    icon_pack: fas
-    icon: database
-
-
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder to display it
-image:
-  caption: 'MultiOCR-QA Dataset Overview'
-  focal_point: ''
-  preview_only: false
 ---
-
