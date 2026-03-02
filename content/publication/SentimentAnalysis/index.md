@@ -21,7 +21,6 @@ publication_types: ['1']
 publication: "Journal of Intelligent & Fuzzy Systems: Applications in Engineering and Technology"
 publication_short: "JIFS"
 
-abstract: ""
 
 summary: Sentiment analysis in Nepali: Exploring machine learning and lexicon-based approaches.
 
