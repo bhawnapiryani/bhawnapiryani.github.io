@@ -56,9 +56,10 @@ links:
     icon: database
 
 
-url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_pdf: 'https://aclanthology.org/2024.findings-emnlp.562/'
+url_code: 'https://github.com/DataScienceUIBK/TempAmbiQA'
+url_dataset: 'https://huggingface.co/datasets/Bhawna/TempAmbiQA'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/TemporalAmbiguity/cite.bib'
 url_poster: ''
 url_project: ''
 url_slides: ''
