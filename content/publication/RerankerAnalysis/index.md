@@ -57,9 +57,10 @@ links:
     icon: database
 
 
-url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_pdf: 'https://aclanthology.org/2025.findings-emnlp.305/'
+url_code: 'https://github.com/DataScienceUIBK/llm-reranking-generalization-study'
+url_dataset: 'https://huggingface.co/datasets/abdoelsayed/FutureQueryEval'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/RerankerAnalysis/cite.bib'
 url_poster: ''
 url_project: ''
 url_slides: ''
