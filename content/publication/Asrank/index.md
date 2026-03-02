@@ -49,9 +49,10 @@ links:
     icon: file-pdf
 
 
-url_pdf: ''
+url_pdf: 'https://aclanthology.org/2025.findings-naacl.161/'
 url_code: ''
 url_dataset: ''
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/Asrank/cite.bib'
 url_poster: ''
 url_project: ''
 url_slides: ''
