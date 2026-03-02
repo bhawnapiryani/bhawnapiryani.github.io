@@ -21,7 +21,7 @@ publication_types: ['1']
 publication: "Journal of Intelligent & Fuzzy Systems: Applications in Engineering and Technology"
 publication_short: "JIFS"
 
-abstract: "In recent times, sentiment analysis research has achieved tremendous impetus on English textual data, however, a very less amount of research has been focused on Nepali textual data. This work is focused towards Nepali textual data. We have explored machine learning approaches and proposed a lexicon-based approach using linguistic features and lexical resources to perform sentiment analysis for tweets written in Nepali language. This lexicon-based approach, first pre-process the tweet, locate the opinion-oriented features and then compute the sentiment polarity of tweet. We have investigated both conventional machine learning models (Multinomial Naïve Bayes (NB), Decision Tree, Support Vector Machine (SVM) and logistic regression) and deep learning models (Convolution Neural Network (CNN), Long Short-Term Memory (LSTM) and CNN-LSTM) for sentiment analysis of Nepali text. These machine learning models and lexicon-based approach have been evaluated on tweet dataset related to Nepal Earthquake 2015 and Nepal blockade 2015. Lexicon based approach has outperformed than conventional machine learning models. Deep learning models have outperformed than conventional machine learning models and lexicon-based approach. We have also created Nepali SentiWordNet and Nepali SenticNet sentiment lexicon from existing English language resources as by-product."
+abstract: ""
 
 summary: Sentiment analysis in Nepali: Exploring machine learning and lexicon-based approaches.
 
