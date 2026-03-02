@@ -42,7 +42,7 @@ reading_time: false    # Removes reading time estimate
 # Links - order matters for display
 links:
   - name: Paper
-    url: 'https://arxiv.org/abs/2508.16998'
+    url: 'https://aclanthology.org/2025.findings-emnlp.306/'
     icon_pack: fas
     icon: file-pdf
   - name: Code
@@ -52,8 +52,9 @@ links:
 
 
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://aclanthology.org/2025.findings-emnlp.306/'
+url_code: 'https://github.com/DataScienceUIBK/DeAR-Reranking'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/multiocr/cite.bib'
 url_dataset: ''
 url_poster: ''
 url_project: ''
