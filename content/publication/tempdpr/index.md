@@ -9,10 +9,10 @@ authors:
   - Avishek Anand
   - Adam Jatowt
 
-date: '2025-10-25T00:00:00Z'
+date: '2026-02-21T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date)
-publishDate: '2025-10-25T00:00:00Z'
+publishDate: '2026-02-25T00:00:00Z'
 
 # Publication type
 publication_types: ['1']
@@ -39,7 +39,7 @@ reading_time: false    # Removes reading time estimate
 # Custom links
 links:
   - name: Paper
-    url: 'https://arxiv.org/abs/2502.21024v1'
+    url: 'https://doi.org/10.1145/3773966.3777938'
     icon_pack: fas
     icon: file-pdf
 
