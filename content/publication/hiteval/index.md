@@ -56,9 +56,10 @@ links:
 
 
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://www.arxiv.org/abs/2502.00857'
+url_code: 'https://github.com/DataScienceUIBK/HintEval'
 url_dataset: ''
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/hinteval/cite.bib'
 url_poster: ''
 url_project: ''
 url_slides: ''
