@@ -55,7 +55,7 @@ links:
 url_pdf: 'https://arxiv.org/abs/2502.02464'
 url_code: ''
 url_dataset: ''
-url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/rankify/cite.bib'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/Rankify/cite.bib'
 url_poster: ''
 url_project: ''
 url_slides: ''
