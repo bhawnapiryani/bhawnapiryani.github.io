@@ -42,7 +42,7 @@ links:
   
 url_pdf: 'https://dl.acm.org/doi/10.1145/3746252.3761484'
 url_code: ''
-url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/multiocr/cite.bib'
+url_bib: 'https://raw.githubusercontent.com/bhawnapiryani/bhawnapiryani.github.io/main/content/publication/RerankerDemo/cite.bib'
 url_dataset: ''
 url_poster: ''
 url_project: ''
