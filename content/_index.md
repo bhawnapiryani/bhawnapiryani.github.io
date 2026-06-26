@@ -4,15 +4,13 @@ date: 2023-10-24
 type: landing
 
 design:
-  spacing: '4rem'
+  spacing: '3rem'
 
 sections:
   - block: biography
     content:
       username: admin
     design:
-      banner:
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
       biography:
         style: 'text-align: left; font-size: 1em; line-height: 1.7; max-width: 760px;'
       avatar:
@@ -25,9 +23,11 @@ sections:
       text: |
         - Natural Language Processing
         - Temporal Question Answering
+        - Temporal Information Retrieval
         - Information Retrieval
         - Historical Document Retrieval
         - Retrieval-Augmented Generation
+        - Large Language Models
 
   - block: collection
     id: publications
@@ -41,15 +41,23 @@ sections:
       view: citation
       columns: '1'
 
-  - block: experience
+  - block: markdown
     content:
-      username: admin
-    design:
-      date_format: 'January 2006'
-      is_education_first: true
+      title: Academic Positions
+      text: |
+        **2022 – Present**  
+        **PhD Researcher**  
+        Data Science Group, Digital Science Center, University of Innsbruck, Austria
 
-  - block: awards
+        **2016**  
+        **Software Engineer Intern**  
+        LIS Nepal, Nepal
+
+  - block: markdown
     content:
       title: Awards
-      username: admin
+      text: |
+        - University of Innsbruck PhD Scholarship Award
+        - Dean's List Award, Pokhara University
+        - Master's Semester Scholarship, Pokhara University
 ---
